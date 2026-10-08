@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: shivam-profile
-          image: YOUR_DOCKER_USERNAME/shivam-profile:latest
+          image: shivam3294/shivam-profile:latest
           imagePullPolicy: IfNotPresent
 
           ports:
