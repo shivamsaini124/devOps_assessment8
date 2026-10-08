@@ -1,12 +1,9 @@
 pipeline {
     agent any
-
     environment {
-        DOCKER_IMAGE = "shivamsaini124/shivam-profile"
+        DOCKER_IMAGE = "shivam3294/shivam-profile"
     }
-
     stages {
-
         stage('Clone Code') {
             steps {
                 git branch: 'main',
